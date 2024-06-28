@@ -45,7 +45,7 @@
             loop: true,
             dots: false,
             autoplay: true,
-            autoplayTimeout: 7000, // Autoplay Timeout 1s = 1000ms
+            autoplayTimeout: 3000, // Autoplay Timeout 1s = 1000ms
             smartSpeed: 2000,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut'
@@ -57,7 +57,7 @@
             loop: true,
             dots: false,
             autoplay: true,
-            autoplayTimeout: 3500, // Autoplay Timeout 1s = 1000ms
+            autoplayTimeout: 3000, // Autoplay Timeout 1s = 1000ms
             smartSpeed: 1000,
             center: true,
             responsive: {
