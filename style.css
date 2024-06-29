@@ -380,7 +380,7 @@ background-color: rgba(0, 0, 0, 0.582); /* Transparent background initially */
     padding: 15px 15px 30px 15px;
     box-shadow: 0 5px 15px #c0c0c015;
     backdrop-filter: blur(20px); /* Apply blur effect */
-  background-color: rgba(0, 0, 0, 0.418); /* Transparent background initially */
+  background-color: rgba(0, 0, 0, 0.750); /* Transparent background initially */
   -webkit-backdrop-filter: blur(30px); /* For Safari */ }
 } }
 
