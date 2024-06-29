@@ -1,4 +1,16 @@
+/* [ -- Master Stylesheet -- ]
 
+------------------------------------------------------
+:: Template Name: World - Blog &amp; Magazine Template
+:: Author: Colorlib
+:: Author URL: https://colorlib.com
+:: Version: 1.0.0
+:: Created: March 21, 2018
+:: Last Updated: March 21, 2018
+-------------------------------------------------- */
+/* Variables */
+/* mixin */
+/* :: Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700");
 /* :: Import All CSS */
 @import url(css/bootstrap.min.css);
@@ -368,20 +380,18 @@ background-color: rgba(0, 0, 0, 0.582); /* Transparent background initially */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #worldNav {
-
+    background-color: #000000;
     padding: 30px;
-    box-shadow: 0 5px 15px #c0c0c015;
-    backdrop-filter: blur(20px); /* Apply blur effect */
-  background-color: rgba(0, 0, 0, 0.418); /* Transparent background initially */
-  -webkit-backdrop-filter: blur(30px); /* For Safari */ }
+    backdrop-filter: blur(40px); /* Apply blur effect */
+    background-color: rgba(0, 0, 0, 0.767); /* Transparent background initially */
+    -webkit-backdrop-filter: blur(40px); /* For Safari */ } }
 @media only screen and (max-width: 767px) {
   #worldNav {
-
+    background-color: #000000;
     padding: 15px 15px 30px 15px;
-    box-shadow: 0 5px 15px #c0c0c015;
-    backdrop-filter: blur(20px); /* Apply blur effect */
-  background-color: rgba(0, 0, 0, 0.750); /* Transparent background initially */
-  -webkit-backdrop-filter: blur(30px); /* For Safari */ }
+    backdrop-filter: blur(40px); /* Apply blur effect */
+    background-color: rgba(0, 0, 0, 0.822); /* Transparent background initially */
+    -webkit-backdrop-filter: blur(40px); /* For Safari */
 } }
 
 .dropdown-menu {
@@ -391,10 +401,9 @@ background-color: rgba(0, 0, 0, 0.582); /* Transparent background initially */
   
   padding-top: 5px;
   border-radius: 3px;
-    box-shadow: 0 5px 15px #c0c0c015;
-    backdrop-filter: blur(20px); /* Apply blur effect */
-  background-color: rgba(0, 0, 0, 0.418); /* Transparent background initially */
-  -webkit-backdrop-filter: blur(30px); /* For Safari */ }
+  backdrop-filter: blur(40px); /* Apply blur effect */
+  background-color: rgba(0, 0, 0, 0.863); /* Transparent background initially */
+  -webkit-backdrop-filter: blur(40px); /* For Safari */ }
 
 /* :: Hero Slides Area CSS */
 .hero-area {
