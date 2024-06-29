@@ -368,18 +368,18 @@ background-color: rgba(0, 0, 0, 0.582); /* Transparent background initially */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #worldNav {
-    background-color: #000000;
+
     padding: 30px;
     backdrop-filter: blur(40px); /* Apply blur effect */
-    background-color: rgba(0, 0, 0, 0.548); /* Transparent background initially */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */ } }
+    background-color: rgba(0, 0, 0, 0.767); /* Transparent background initially */
+    -webkit-backdrop-filter: blur(40px); /* For Safari */ } }
 @media only screen and (max-width: 767px) {
   #worldNav {
-    background-color: #000000;
+
     padding: 15px 15px 30px 15px;
     backdrop-filter: blur(40px); /* Apply blur effect */
-    background-color: rgba(0, 0, 0, 0.548); /* Transparent background initially */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    background-color: rgba(0, 0, 0, 0.822); /* Transparent background initially */
+    -webkit-backdrop-filter: blur(40px); /* For Safari */
 } }
 
 .dropdown-menu {
