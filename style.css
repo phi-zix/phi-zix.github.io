@@ -892,6 +892,7 @@ background-color: rgba(0, 0, 0, 0.582); /* Transparent background initially */
 
 .comment_area .comment-content {
   padding: 30px 50px;
+  border-radius: 20px;
   box-shadow: 0 1px 5px rgba(255, 255, 255, 0.151); }
   @media only screen and (max-width: 767px) {
     .comment_area .comment-content {
@@ -924,7 +925,7 @@ background-color: rgba(0, 0, 0, 0.582); /* Transparent background initially */
 .contact-form,
 .post-a-comment-area {
   padding: 60px 55px;
-  
+  border-radius: 20px;
   box-shadow: 0 1px 5px rgba(255, 255, 255, 0.15); }
   @media only screen and (max-width: 767px) {
     .contact-form,
